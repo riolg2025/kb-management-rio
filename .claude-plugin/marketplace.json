@@ -1,0 +1,15 @@
+{
+  "name": "kb-management-rio",
+  "owner": {
+    "name": "riolg2025"
+  },
+  "plugins": [
+    {
+      "name": "kb-management-rio",
+      "source": "./",
+      "description": "知识库维护技能集 · ppt-retrofit：旧 PPT 原生改造（保真重做为可编辑 PPTX）",
+      "category": "productivity",
+      "keywords": ["pptx", "python-pptx", "retrofit", "slides", "knowledge-base"]
+    }
+  ]
+}

@@ -2,6 +2,17 @@
 
 知识库维护技能集插件。把知识库运营中的重复性工作沉淀为可复用的 Agent 技能，首个技能是 **ppt-retrofit（旧 PPT 原生改造）**。
 
+## 安装
+
+**Claude Code（一键安装）**：会话内依次运行
+
+```
+/plugin marketplace add riolg2025/kb-management-rio
+/plugin install kb-management-rio@kb-management-rio
+```
+
+**其他 AI 工具（Codex / Cursor / Jules 等）**：clone 本仓库，让 Agent 读 [AGENTS.md](AGENTS.md)（跨工具通用说明）与 `skills/ppt-retrofit/SKILL.md`（技能主文档）即可使用。
+
 ## ppt-retrofit — 旧 PPT 原生改造
 
 把人写的旧 PPTX 改造成**原生可编辑**的新 PPTX：内容保真（文字一字不减、图片按类别处理）、结构保真（架构/流程图严格按原稿或整体沿用）、版式升级（自由发挥页重新设计）。技术栈 python-pptx + Pillow，自包含，不依赖其他插件。
